@@ -14,8 +14,7 @@ while(@vals) {
   my $val1 = pop @vals;
   foreach my $val2 (@vals) {
     if (($val1+$val2)==2020) {
-      print($val1*$val2);
-      print("\n");
+      print("Multiplication of $val1 and $val2 = ",$val1*$val2,"\n");
       exit();
     }
   }
