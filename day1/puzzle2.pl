@@ -15,8 +15,7 @@ while(@vals) {
   foreach my $val2 (@vals) {
     foreach my $val3 (@vals) {
       if (($val1+$val2+$val3)==2020) {
-        print($val1*$val2*$val3);
-        print("\n");
+        print("Sum 2020 multiplied=",$val1*$val2*$val3,"\n");
         exit();
       }
     }
