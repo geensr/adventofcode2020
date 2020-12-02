@@ -13,5 +13,7 @@ I used to a be a programmer in both C and Perl but that was more than 15 years a
 
 I am learning Git (very nice) and markdown (is this really necessary) and have started a few things in Python and R and will hopefully experiment more with Javascript (or TypeScript whatever) in the near future.
 
+This could cause a merge confict ?
+
 
 
