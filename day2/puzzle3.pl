@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-my $debug=1;
+my $debug=0;
 
 my $validcount = 0;
 
