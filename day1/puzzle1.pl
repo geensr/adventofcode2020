@@ -6,7 +6,8 @@ use warnings;
 my @vals = ();
 
 while(<>) {
-  chomp;
+  s/[\r\n]//g;
+  next unless /\d+/;
   push @vals, $_;
 }
 
